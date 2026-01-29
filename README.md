@@ -1,4 +1,4 @@
-# SlideSense - Voice-Controlled PowerPoint Presentation System
+# Slideers - Voice-Controlled PowerPoint Presentation System
 
 A sophisticated voice control system for PowerPoint presentations with accessibility features, accent training, and real-time feedback.
 
