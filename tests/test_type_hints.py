@@ -5,9 +5,15 @@ Comprehensive test suite for type annotations
 
 import pytest
 from typing import Dict, Any, Optional, List
-from voice_detector import SmartVoiceDetector
-from hybrid_voice_recognizer import HybridVoiceRecognizer
-from powerpoint_controller import PowerPointController
+import sys
+from pathlib import Path
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from src.core.voice_detector import SmartVoiceDetector
+from src.core.voice_recognizer import HybridVoiceRecognizer
+from src.core.powerpoint_controller import PowerPointController
 
 
 class TestTypeHints:

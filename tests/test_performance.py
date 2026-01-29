@@ -6,11 +6,13 @@ Benchmark critical functions and identify optimization opportunities
 import pytest
 import time
 from typing import Dict, Any
-from performance_profiler import (
-    PerformanceProfiler, CacheOptimizer, OptimizationAnalyzer,
-    measure_time, check_performance_target, BenchmarkResult
-)
-from utils import (
+import sys
+from pathlib import Path
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from src.utils.helpers import (
     get_audio_devices, find_best_device, retry_operation,
     validate_confidence, format_confidence, sanitize_text,
     group_by_key, flatten_dict, safe_read_file, safe_write_file

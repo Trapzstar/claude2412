@@ -9,7 +9,12 @@ import os
 import tempfile
 from typing import List, Dict, Any
 from dataclasses import dataclass
-from utils import (
+from pathlib import Path
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from src.utils.helpers import (
     retry_operation, safe_call, get_audio_devices, find_best_device,
     validate_confidence, format_confidence, sanitize_text,
     group_by_key, flatten_dict, ensure_directory,

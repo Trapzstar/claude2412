@@ -1,0 +1,134 @@
+{
+  "unrecognized_commands": [
+    {
+      "timestamp": "2026-01-22 10:52:43",
+      "user_input": "blablabla something weird",
+      "closest_match": "none",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "timestamp": "2026-01-24 09:53:37",
+      "user_input": "antar kelompok prasangka",
+      "closest_match": "none",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "timestamp": "2026-01-24 09:53:50",
+      "user_input": "nextline",
+      "closest_match": "none",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "timestamp": "2026-01-24 09:54:05",
+      "user_input": "dialog antar",
+      "closest_match": "none",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "timestamp": "2026-01-24 09:55:12",
+      "user_input": "jujur saya kurang",
+      "closest_match": "none",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "timestamp": "2026-01-24 11:08:16",
+      "user_input": "xyzabc123def",
+      "closest_match": "none",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "timestamp": "2026-01-24 11:09:14",
+      "user_input": "xyzabc123def",
+      "closest_match": "none",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "timestamp": "2026-01-24 11:10:03",
+      "user_input": "xyzabc123def",
+      "closest_match": "none",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "timestamp": "2026-01-24 11:12:22",
+      "user_input": "xyzabc123def",
+      "closest_match": "none",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "timestamp": "2026-01-29 09:11:55",
+      "user_input": "xyzabc123def",
+      "closest_match": "none",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "timestamp": "2026-01-29 09:12:10",
+      "user_input": "xyzabc123def",
+      "closest_match": "none",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "timestamp": "2026-01-29 09:12:37",
+      "user_input": "xyzabc123def",
+      "closest_match": "none",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "timestamp": "2026-01-29 09:13:02",
+      "user_input": "xyzabc123def",
+      "closest_match": "none",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "timestamp": "2026-01-29 09:13:46",
+      "user_input": "xyzabc123def",
+      "closest_match": "none",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "timestamp": "2026-01-29 09:14:42",
+      "user_input": "xyzabc123def",
+      "closest_match": "none",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "timestamp": "2026-01-29 09:14:54",
+      "user_input": "xyzabc123def",
+      "closest_match": "none",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "timestamp": "2026-01-29 10:07:03",
+      "user_input": "pre",
+      "closest_match": "none",
+      "confidence": 0.0,
+      "suggestions": []
+    },
+    {
+      "timestamp": "2026-01-29 10:07:34",
+      "user_input": "proquest live",
+      "closest_match": "none",
+      "confidence": 0.0,
+      "suggestions": []
+    }
+  ],
+  "metadata": {
+    "total_unrecognized": 18,
+    "last_updated": "2026-01-29 10:07:34"
+  }
+}

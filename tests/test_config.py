@@ -6,7 +6,12 @@ import unittest
 import tempfile
 import json
 from pathlib import Path
-from config import Config, get_config, reset_config
+import sys
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from src.infrastructure.config import Config, get_config, reset_config
 
 
 class TestConfigBasic(unittest.TestCase):

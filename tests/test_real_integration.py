@@ -6,10 +6,15 @@ Tests actual workflow with real performance metrics
 import pytest
 import time
 from typing import Dict, Any, List
-from performance_profiler import PerformanceProfiler, measure_time
-from voice_detector import SmartVoiceDetector
-from hybrid_voice_recognizer import HybridVoiceRecognizer
-from powerpoint_controller import PowerPointController
+import sys
+from pathlib import Path
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from src.core.voice_detector import SmartVoiceDetector
+from src.core.voice_recognizer import HybridVoiceRecognizer
+from src.core.powerpoint_controller import PowerPointController
 
 
 class TestRealApplicationWorkflow:

@@ -1,9 +1,15 @@
 # test_all.py - Gabung semua test case
 import unittest
-from voice_detector import SmartVoiceDetector
-from hybrid_voice_recognizer import HybridVoiceRecognizer
-from powerpoint_controller import PowerPointController
-from accessibility_popup import AccessibilityPopup
+import sys
+from pathlib import Path
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from src.core.voice_detector import SmartVoiceDetector
+from src.core.voice_recognizer import HybridVoiceRecognizer
+from src.core.powerpoint_controller import PowerPointController
+from src.core.accessibility_popup import AccessibilityPopup
 
 class TestVoiceControl(unittest.TestCase):
     def setUp(self):
